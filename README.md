@@ -12,3 +12,7 @@ Run PHP Docker Image
 ` docker run --net my-network -e=username=root -e=password=12345 -p 8888:80 siddharth67/php-mysql:vaul `
 
 Within `index.php` the serverName is hardcoded to `mysql:3306` 
+
+![image](https://user-images.githubusercontent.com/28925814/130364106-eb26f90c-07c6-4956-8814-3e49121df263.png)
+![image](https://user-images.githubusercontent.com/28925814/130364116-a60d735b-320b-41d1-8268-16f4f9099ead.png)
+

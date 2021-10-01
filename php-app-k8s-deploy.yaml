@@ -17,7 +17,7 @@ spec:
     spec:
       serviceAccountName: app
       containers:
-      - image: siddharth67/php:vault
+      - image: php:vault
         name: php
 ---
 apiVersion: v1

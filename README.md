@@ -11,6 +11,12 @@ This example is used to showcase Kubernetes Hashicorp Vault Secrets injections.
 ## Update Image in php-app-k8s-deploy.yaml and run
 ` kubectl apply -f php-app-k8s-deploy.yaml `
 
-![image](https://user-images.githubusercontent.com/28925814/135674891-7f4e7a0b-99fe-41d0-a8ab-b9dc4bf3a10f.png)
-![image](...)
+![image](https://user-images.githubusercontent.com/28925814/135718083-86ef037e-bac2-4f5a-8a1e-d1b58c538aad.png)
+
+
+## Patching the Deployment with Vault Annotations
+` kubectl patch deploy php -p "$(cat patch-annotations-template.yaml)" `
+
+
+![image](https://user-images.githubusercontent.com/28925814/135718801-b34d5519-cf33-4b30-a84e-6de5e7610851.png)
 
